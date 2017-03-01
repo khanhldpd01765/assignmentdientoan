@@ -1,0 +1,262 @@
+﻿a {
+	text-decoration:none;
+	color:blue;
+}
+.a1 {
+	color:black;
+}
+a:hover {
+	text-decoration:underline;
+}
+.border {
+	width: 1024px;
+	height: 1500px;
+	margin: auto;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	background:#FFF;
+}
+.wrapperall {
+	width: auto;
+	height: 1735px;
+	background:#999;
+	
+}
+.wrapper {
+	width: 1014px;
+	height: 1500px;
+	background:#FFF;
+}
+.top{
+	width:1024;
+	height:150px;
+}
+	.logo {
+		width:300px;
+		height:150px;
+		float:left;
+	}
+	#house {
+		float:left;
+	}
+	.sreach {
+		width:724;
+		height:100px;
+		float:left;
+	}
+	.sreach1 {
+		height:35px;
+		width:470px;
+		margin-top: 40px;
+	}
+	.formlogin {
+		width:250px;
+		height:100px;
+		margin-left: 473px;
+		margin-top: -78px;
+	}
+	.menu {
+		width:724px;
+		height:50px;
+		float:left;
+	}
+	.menu1 {
+		float:left;
+		padding:15px;
+		position:relative;
+	}
+	.sub-menu{
+		display:none;
+		position:absolute;
+		background:#FF0;
+		margin-top:15px;
+		width:195px;
+		margin-left: -15px;
+		background:white;
+	}
+	.menu3 {
+		position:absolute;
+		display:none;
+		background:white;
+		width:150px;
+		margin-left: 190px;
+		margin-top:-25px;
+		
+	} 
+	.menu3-1 {
+		padding: 5px;
+	}
+	.menu2:hover .menu3{
+		display:block;
+		transition:all 0.5s;
+		border-radius:10px;
+		
+	}
+	.menu3-1:hover{
+		background:black;
+		border-radius:10px;
+	}
+	.menu1 a:hover {
+		color:white;
+		text-decoration:underline;
+		transition:all 0.5s;
+		
+	}
+	.menu1:hover .sub-menu{
+		display:block;
+		border-radius:10px;
+	}
+	.menu1:hover{
+		background:black;
+		transition:all 0.5s;
+		border-radius:10px;
+	}
+	.menu2 {
+		padding: 5px;
+		position:relative;
+	}
+	.menu3-1:hover a{
+		background:black;
+		transition:all 0.5s;
+		border-radius:10px;
+	}
+	
+	.menu2:hover {
+		color:black;
+		background:black;
+		transition:all 0.5s;
+		border-radius:10px;
+	}
+	.li1 {
+		list-style: none;
+		float:left;
+		padding-left:20px;
+	}
+	
+.banner{
+	width:1024px;
+	height:420px;
+	margin-top:15px;
+}
+	.bannerleft{
+		width:750px;
+		height:420px;
+		float:left;
+	}
+	.tinhot{
+		width:750px;
+		height:20px;
+		float:left;
+		border:1px solid #ccc;
+	}
+	.slideshow {
+		width:750px;
+		height:400px;
+		float:left;
+		background:violet;
+	}
+	#prev {
+		position:absolute;
+		top: 360px;
+		left: 140px;
+		opacity:0.4;
+	}
+	#prev:hover {
+		opacity:1;
+		transition:all 1000;
+	}
+	#next {
+		position:absolute;
+		top: 360px;
+		left: 875px;
+		opacity:0.4;
+	}
+	#next:hover {
+		opacity:1;
+		transition:all 1000;
+	}
+	.nhande {
+		width:260px;
+		height:30px;
+		font-weight:bold;
+		font-size:17px;
+		background:#0f0f0f;
+		color:white;
+	}
+	.bannerright {
+		width:260px;
+		height:420px;
+		float:right;
+		border:1px solid #ccc;
+	}
+.ads {
+	height:100px;
+	width:1024;
+	margin-top:15px;
+}
+.content {
+	width: 1024px;
+	height: 900px;
+}
+	.product {
+	width: 1010px;
+	height: 800px;
+		
+	}
+	.product1 {
+		width:200px;
+		height:250px;
+		float:left;
+		border:1px solid #ccc;
+	}
+	.anh {
+		width:200px;
+		height:150px;
+	}
+	.infomation {
+		width:200px;
+		height:100px;
+	}
+	.gia {
+		color:#D00505;
+	}
+	.khuyenmai {
+		color:#999;
+	}
+	.tensp {
+	font-size: 16px;
+	float: inherit;
+	font-weight: bold;
+	}
+	.chitiet {
+		float:right;
+		color:blue;
+		
+	}
+	.type {
+		width:1024px;
+		height:50px;
+	}
+	.product2 {
+		width:200px;
+		height:175px;
+		float:left;
+	}
+	.product3 {
+		width:200px;
+		height:175px;
+		float:right;
+	}
+.footer{
+	width:1024;
+	height:200px;
+	color:#000;
+	background:#FFC;
+}
+.bottom {
+	width:1024px;
+	height:25px;
+	background:black;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}

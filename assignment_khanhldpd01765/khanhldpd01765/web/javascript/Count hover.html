@@ -1,0 +1,52 @@
+﻿<! DOCTYPE HTML >
+
+<html>
+	<head>
+		<meta charset = "UTF-8" />
+		<title>Trang Chủ</title>
+		<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				var myCounter = 0;
+				$('#x').hover(function()
+				{
+					myCounter++;
+					if(myCounter == 1){
+						$('#x').attr("value", "X");
+					}
+					if(myCounter == 2){
+						$('#x').attr("value", "T");
+					}
+					if(myCounter == 3){
+						$('#x').attr("value", "Y");
+					}
+					if(myCounter == 4){
+						$('#x').attr("value", "T");
+					}
+					if(myCounter == 5){
+						$('#x').attr("value", "Z");
+					}
+					if(myCounter == 6){
+						$('#x').attr("value", "T");
+					}
+					if(myCounter == 7){
+						$('#x').attr("value", "M");
+					}
+					if(myCounter == 8){
+						$('#x').attr("value", "T");
+					}
+					if(myCounter == 9){
+						$('#x').attr("value", "L");
+					}
+					if(myCounter == 10){
+						$('#x').attr("value", "T");
+					}
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		<input type="button" value="T" id="x"/>
+	</body>
+</html>
